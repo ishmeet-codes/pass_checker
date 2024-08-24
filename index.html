@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <style>
+        .strength {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .weak { color: red; }
+        .medium { color: orange; }
+        .strong { color: green; }
+    </style>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl ">
+    <h1 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Ishmeet Singh Chadha</h1>
+    <h2 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">B. Tech IT 1st year</h2>
+    <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">CRN :- 2421070</h3>
+    <!--password testing area --> 
+    <div class="block">
+        <h1 class="text-slate-900 dark:text-sky-500 mt-5 text-base font-medium tracking-tight flex items-center justify-center ">Password Strength Checker</h1>
+        <input type="password" id="password" placeholder="Enter your password" class="block ml-auto mr-auto">
+        <p class="strength  mt-5 text-base font-medium tracking-tight "  id="strengthMessage" ></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
